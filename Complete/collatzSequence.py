@@ -14,4 +14,4 @@ while True:
         while number != 1:
             number = collatz(number)
     except:
-        print("Error was generated")
+        print("Invalid input")
